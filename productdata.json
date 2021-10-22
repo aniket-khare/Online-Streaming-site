@@ -1,0 +1,152 @@
+{
+    "productinfoarray": [
+        {
+            "name":"The A list",
+            "group": "TV Shows",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "a list.png"
+            
+            
+        },
+        {
+            "name":"Alice in Borderland",
+            "group": "Trending",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "aliceinborderland.jpg"
+          
+        },
+        {
+            "name":"Baking Impossible",
+            "group": "TV Shows",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "bakingimpossible.jpeg"
+        },
+        {
+            "name":"Billion Dollar Code",
+            "group": "My List",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "billion dollar code.jpg"
+        },
+        {
+            "name":"Brooklyn Nine Nine",
+            "group": "Trending",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "brooklyn.jpg"
+        },
+        {
+            "name":"Dark",
+            "group": "My List",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "dark.jpeg"
+        },
+        {
+            "name":"Dear Zindagi",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "dear zindagi.jpg"
+        },
+        {
+            "name":"Equilizer 2",
+            "group": "New Arrivals",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "equalizer 2.jpg"
+        },
+        {
+            "name":"Jumanji",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "jumanji.jpg"
+        },
+        {
+            "name":"Jurassic World",
+            "group": "TV Shows",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "jurassic.jpg"
+        },
+        {
+            "name":"Mom",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "mom.jpg"
+            
+        },
+        {
+            "name":"now you see me 2",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "now you see me.jpg"
+        },
+        {
+            "name":"Our Planet",
+            "group": "TV Shows",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "ourplanet.jpg"
+        },
+        {
+            "name":"Pink Movie",
+            "group": "Trending",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "Pinkmovieposter.jpg"
+        },
+        {
+            "name":"Raising Dion",
+            "group": "My List",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "raising dion.jpg"
+        },
+        {
+            "name":"Secret Superstar",
+            "group": "Trending",
+            "view":"12+",
+            "imdbrating":"7.2",
+
+            "logo": "secret-superstar.jpg"
+        },
+        {
+            "name":"Shazam",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "shazam.png"
+        },
+        {
+            "name":"Spiderman Far from Home",
+            "group": "Movies",
+            "imdbrating":"7.2",
+            "view":"12+",
+            "logo": "spideman home.jpg"
+        },
+        {
+            "name":"Squid Game",
+            "group": "New Arrivals",
+            "imdbrating":"7.2",
+            "view":"18+",
+            "logo": "squid game.jpg"
+        },
+        {
+            "name":"Stranger Things",
+            "group": "My List",
+            "view":"16+",
+            "imdbrating":"7.2",
+            "logo": "Stranger_Things_logo.png"
+        }
+       
+        
+        
+    ]
+}

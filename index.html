@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo-main" src="logo.png" alt="watchflix logo" />
+        <div class="header-middle-area">
+            <nav class="main-nav">
+                <div class="navdiv">
+                <div class="navi"><a href="#" id="nav-keys">Home</a></div>
+                <div class="navi"><a href="#" id="nav-keys">My Account</a></div>
+                <div class="navi"><a href="#" id="nav-keys">About</a></div>
+                <div class="navi"><a href="#" id="nav-keys">Settings</a></div>
+                <div class="navi"><a href="#" id="nav-keys">My Plan</a></div>
+                </div>
+            </nav>
+            <div class="search-and-account">
+                <input type="text" placeholder="Search..">
+                <img src="icons8-search.gif" alt="search img" class="search-img">
+            </div>
+        </div>
+    </header>
+    <section>
+    <div class="section">
+        <h1>Watch Flix</h1>
+        <div class="video-container">
+        <div class="color-overlay"></div>
+        <video autoplay loop muted class="video-class">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="recentadded"><button class="recentaddedbutton">Recently Added</button></div>
+        <div class="owl-carousel owl-theme" id="caro">   
+    </div>
+    </section>
+    <section class="sort-sec">
+        <div class="taskbar1 fade">
+            <div class="tr1"><a href="#" id="tr2" onclick="handleFilters('Movies','categories')">Movies</a></div>
+            <div class="tr1"><a href="#" id="tr2" onclick="handleFilters('Trending','categories')">Trending</a></div>
+            <div class="tr1"><a href="#" id="tr2" onclick="handleFilters('New Arrivals','categories')">New Arrivals</a></div>
+            <div class="tr1"><a href="#" id="tr2" onclick="handleFilters('My List','categories')">My List</a></div>
+            <div class="tr1"><a href="#" id="tr2" onclick="handleFilters('TV Shows','categories')">TV Shows</a></div>
+            
+        </div>
+    </section> 
+    <main class="main-class">        
+        <section>
+            <div class="maindivide">
+               
+                <div id="rightpanel"></div>
+            </div>
+        </section>
+    </main>
+    <script src="productdetail.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+    
+    </script>
+</body>
+</html>
